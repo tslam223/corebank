@@ -5,7 +5,7 @@ const Money = () => {
     <section className="hidden md:block">
       <div className="container flex justify-between gap-[4px] xl:justify-center xl:gap-[33px]">
         {moneyBox.map((item) => (
-          <div className="shadow-moneyShadow bg-white w-[180px] h-[171px] pl-[18px] pt-[26px]">
+          <div key={item.title} className="shadow-moneyShadow bg-white w-[180px] h-[171px] pl-[18px] pt-[26px]">
             <img
               src={item.image}
               alt={item.title}
