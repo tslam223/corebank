@@ -4,6 +4,9 @@ import investment from "../assets/Investment.svg";
 import ebanking from "../assets/E-banking.svg";
 import cards from "../assets/Cards.svg";
 import pos from "../assets/pos.svg";
+import savings1 from "../assets/savings1.svg";
+import savings2 from "../assets/savings2.svg";
+import savings3 from "../assets/savings3.svg";
 export const moneyBox = [
   {
     image: loans,
@@ -28,5 +31,22 @@ export const moneyBox = [
   {
     image: pos,
     title: "POS",
+  },
+];
+export const savingBox = [
+  {
+    image: savings3,
+    title: "Savings",
+    body: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris",
+  },
+  {
+    image: savings2,
+    title: "Savings",
+    body: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris",
+  },
+  {
+    image: savings1,
+    title: "Savings",
+    body: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris",
   },
 ];
