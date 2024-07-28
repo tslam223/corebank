@@ -5,7 +5,7 @@ import Slider from "../ui/Slider";
 
 const Savings = () => {
   return (
-    <section className="container pb-[5rem]">
+    <section className="container pb-[5rem] text-primary">
       <div className="flex items-center gap-[7px] lg:gap-[20px] mt-[42px] lg:mt-[119px]">
         <div className="w-[15px] h-[15px] lg:w-[30px] lg:h-[30px] bg-[#EF9B11]"></div>
         <h5 className="text-[14px] lg:text-lg font-medium leading-[32px] lg:leading-[64px] ">
@@ -34,8 +34,8 @@ const Savings = () => {
       <div className="lg:hidden">
         <Slider>
           {savingBox.map((item, index) => (
-            <SwiperSlide key={index}>
-              <div className="shadow-moneyShadow rounded-[10px] bg-red-400 sm:w-[362px] lg:w-[391px] h-[554px] pl-[27px] pt-[69px] pb-[11px] pr-[30px]">
+            <SwiperSlide key={index} className="w-full mb-[16px]">
+              <div className="shadow-moneyShadow rounded-[10px] bg-white sm:w-[362px] lg:w-[391px] h-[554px] pl-[27px] pt-[69px] pb-[11px] pr-[30px]">
                 <img src={item.image} alt={item.title} className="w-full" />
                 <h2 className="font-semibold text-[28px] leading-[76px] pt-[18px]">
                   {item.title}

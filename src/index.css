@@ -11,3 +11,9 @@ font-family: "Poppins", sans-serif;
 .active{
     color: #EF9B11;
 }
+.swiper-pagination,
+.swiper-pagination-clickable,
+.swiper-pagination-bullets,
+.swiper-pagination-horizontal{
+    bottom: -5px !important;
+}
