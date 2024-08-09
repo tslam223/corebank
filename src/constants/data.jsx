@@ -50,3 +50,19 @@ export const savingBox = [
     body: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris",
   },
 ];
+export const clientBox = [
+  {
+    title: "Jane Doe",
+    body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris",
+  },
+  {
+    title: "Jane Doe",
+    body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor s",
+  },
+  {
+    title: "Jane Doe",
+    body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor s",
+  },
+];
+
+

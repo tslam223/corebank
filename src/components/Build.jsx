@@ -1,14 +1,14 @@
 import React from 'react'
 import ladyphone from "../assets/ladyphone.svg"
 
-export const Build = () => {
+const Build = () => {
   return (
     <section className="bg-buildGradient text-primary pb-[66px]">
       <div className="container grid lg:grid-cols-[60%_40%] items-center">
-        <div className='lg:order-2 flex justify-center '>
-          <img src={ladyphone} alt="lady" className='lg:w-full' />
+        <div className="lg:order-2 flex justify-center ">
+          <img src={ladyphone} alt="lady" className="lg:w-full" />
         </div>
-        <div className='lg:order-1'>
+        <div className="lg:order-1">
           <div className="flex items-center gap-[22px] pt-[56px]">
             <div className="w-[30px] h-[30px] bg-[#405558]"></div>
             <h5 className="text-[14px] lg:text-lg font-medium leading-[32px] lg:leading-[64px]  ">
@@ -33,7 +33,7 @@ export const Build = () => {
             </button>
             <button
               className="py-[26px] px-[56px] text-white
-          rounded-[10px] border-[2px] border-white w-fit"
+          rounded-[10px] border-[2px] border-white w-fit "
             >
               Open E-Banking
             </button>
@@ -43,3 +43,4 @@ export const Build = () => {
     </section>
   );
 }
+export default Build;

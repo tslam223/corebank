@@ -3,7 +3,7 @@ import { savingBox } from "../constants/data";
 import Slider from "../ui/Slider";
 
 
-const Savings = () => {
+const Finance = () => {
   return (
     <section className="container pb-[5rem] text-primary">
       <div className="flex items-center gap-[7px] lg:gap-[20px] mt-[42px] lg:mt-[119px]">
@@ -52,4 +52,4 @@ const Savings = () => {
   );
 }
 
-export default Savings
+export default Finance

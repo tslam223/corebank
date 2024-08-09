@@ -1,4 +1,4 @@
-import { moneyBox } from "../constants/data"
+import { moneyBox }  from "../constants/data"
 
 const Money = () => {
   return (
