@@ -15,6 +15,7 @@ module.exports = {
       colors: {
         primary: "#12082D",
         bannerColor: "#405558",
+        yello: "#EF9B11",
       },
       boxShadow: {
         moneyShadow: "0px 4px 4px 0px #00000040",
